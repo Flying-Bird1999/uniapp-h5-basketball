@@ -1,19 +1,5 @@
-# basketball-uniapp
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 小程序端项目描述
+## 具体模块的实现
+轮播图与裁判队伍的展示、赛事规则与精彩十佳球的查看、报名队伍人员信息的查看、赛程页面采用触底分页进行渲染、用户登录基于 jwt+token 认证，登录成功后可搜索用户进行关注、修改资料、查看战绩、接收通知、意见反馈、修改密码、绑定手机号、注销用户等。
+## 部署地址
+http://120.25.203.54:81/web
