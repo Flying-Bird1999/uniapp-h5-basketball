@@ -1,0 +1,71 @@
+.game {
+	width: 100%;
+	.game-time {
+		display: flex;
+		flex-direction: row;
+		font-size: 16px;
+		font-weight: bold;
+		padding: 10rpx;
+		.game-time-date,
+		.game-time-day {
+			margin-right: 15rpx;
+		}
+	}
+	.game-message {
+		height: 140rpx;
+		display: flex;
+		flex-direction: row;
+		border-bottom: 1px solid #dbdbdb;
+		.game-message-status {
+			flex: 1.3;
+			height: 100rpx;
+			margin: 20rpx 0 0 20rpx;
+			border-right: 1px solid #dbdbdb;
+			.status-begin {
+				font-size: 16px;
+				font-weight: 700;
+				color: #1e1e1e;
+				margin-bottom: 5rpx;
+			}
+			.status-which {
+				font-size: 14px;
+				color: #707070;
+			}
+		}
+		.game-message-competitor {
+			flex: 2.5;
+			padding: 0 25rpx;
+			.competitor {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				line-height: 70rpx;
+				font-size: 17px;
+				.competitor-name {
+					width: 300rpx;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+				.competitor-score {
+					font-weight: bold;
+				}
+			}
+		}
+		.game-message-count {
+			flex: 1;
+			font-size: 14px;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: center;
+			margin-right: 15rpx;
+			color: #707070;
+			.count {
+				width: 30rpx;
+				height: 30rpx;
+				margin-left: 5rpx;
+			}
+		}
+	}
+}

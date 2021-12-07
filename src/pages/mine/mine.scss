@@ -1,0 +1,181 @@
+.page {
+	height: 1140rpx;
+	background-color: #f7f7f7;
+	.header-y {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 50rpx 20rpx;
+		.h-head {
+			height: 170rpx;
+			width: 170rpx;
+			border-radius: 50%;
+			margin-left: 20rpx;
+		}
+		.h-message {
+			margin-right: 100rpx;
+			align-self: center;
+			.h-name {
+				font-size: 20px;
+				color: #515151;
+				font-weight: bold;
+				margin-bottom: 10rpx;
+				text {
+					color: #707070;
+					font-weight: bold;
+					font-size: 16px;
+					margin-left: 15rpx;
+				}
+			}
+			.h-class {
+				font-size: 16px;
+				color: #707070;
+				font-weight: bold;
+				margin-bottom: 10rpx;
+			}
+			.h-userFans {
+				display: flex;
+				.u-fans {
+					align-self: center;
+					font-size: 16px;
+					color: #707070;
+					font-weight: bold;
+					margin-right: 15rpx;
+					text {
+						color: #2c2c2c;
+						font-size: 20px;
+						margin-right: 8rpx;
+					}
+				}
+			}
+		}
+		.h-setting {
+			height: 50rpx;
+			width: 50rpx;
+			margin-right: 20rpx;
+		}
+	}
+	.header-n {
+		height: 300rpx;
+		//background-color: #000;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		.login {
+			width: 180rpx;
+			height: 180rpx;
+			background-color: #df2007;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 180rpx;
+			font-size: 21px;
+			font-weight: bold;
+			color: #fff;
+			box-shadow: 10rpx 5rpx 10rpx #bfbfbf;
+		}
+	}
+	.container {
+		margin-top: 25rpx;
+		.c-item {
+			height: 100rpx;
+			display: flex;
+			flex-direction: row;
+			box-sizing: border-box;
+			padding: 20rpx 25rpx 0;
+			justify-content: space-between;
+			border-bottom: 1px solid #dbdbdb;
+			.c-icon {
+				width: 40rpx;
+				height: 40rpx;
+				color: #8a8a8a;
+				margin-top: 8rpx;
+			}
+			.c-word {
+				font-size: 18px;
+				color: #707070;
+				font-weight: bold;
+				margin-right: 390rpx;
+				letter-spacing: 2rpx;
+			}
+		}
+	}
+	.shade {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 888;
+		opacity: .8;
+		background-color: #909399;
+	}
+	.followFans {
+		height: 0;
+		overflow: auto;
+		width: 100%;
+		background-color: #fff;
+		position: absolute;
+		bottom: 0;
+		border-top-left-radius: 25rpx;
+		border-top-right-radius: 25rpx;
+		z-index: 1000;
+		box-sizing: border-box;
+		margin-top: 20rpx;
+		padding: 0 20rpx;
+		.b-title {
+			display: flex;
+			height: 100rpx;
+			margin-left: 20rpx;
+			margin-top: 25rpx;
+			.t-icon {
+				width: 4px;
+				height: 24px;
+				background-color: #f9a215;
+				margin-right: 12rpx;
+				margin-top: 2rpx;
+			}
+			.t-word {
+				font-size: 20px;
+				font-weight: bold;
+				color: #515151;
+			}
+		}
+		.fF_user {
+			display: flex;
+			margin-bottom: 25rpx;
+			.fF_user-imgBorder {
+				overflow: hidden;
+				border-radius: 50%;
+				width: 130rpx;
+				height: 130rpx;
+				.fF_user-img {
+					width: 130rpx;
+					height: 130rpx;
+				}
+			}
+			.fF_user-username {
+				margin-left: 20rpx;
+				.fF_user-name {
+					font-size: 20px;
+					color: #515151;
+					font-weight: bold;
+					margin-top: 16rpx;
+				}
+				.fF_user-identity {
+					color: #707070;
+					font-weight: bold;
+					font-size: 16px;
+					margin-left: 10rpx;
+					margin-top: 5rpx;
+				}
+			}
+			.fF_user-btn {
+				margin-top: 15rpx;
+				margin-right: 20rpx;
+				width: 180rpx;
+				height: 90rpx;
+				text-decoration: underline;
+			}
+		}
+	}
+}

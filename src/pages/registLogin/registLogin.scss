@@ -1,0 +1,40 @@
+.body {
+	border-top: solid 1px #dbdbda;
+	padding: 0 40rpx;
+	.face-wapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin: 120rpx 0;
+		.face {
+			width: 160rpx;
+			height: 160rpx;
+		}
+	}
+	.info-wapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		border-bottom: 1px solid #dbdbda;
+		padding-bottom: 20rpx;
+		.words-lbl {
+			color: #808080;
+		}
+		.input {
+			width: 500rpx;
+			margin-left: 40rpx;
+		}
+		.graywords {
+			color: #a7a7a7;
+		} 
+	}
+	.regist {
+		text-align: right;
+		font-size: 14px;
+		margin-top: 20rpx;
+		color: #808080;
+		text {
+			color: red;
+		}
+	}
+}

@@ -1,0 +1,65 @@
+.page {
+	padding: 30rpx;
+	.notify-item {
+		padding: 30rpx 20rpx;
+		box-sizing: border-box;
+		width: 93%;
+		display: flex;
+		flex-direction: column;
+		border-radius: 20rpx;
+		margin-bottom: 40rpx;
+		.notify-item-title {
+			display: flex;
+			flex-direction: row;
+			//justify-content: space-between;
+			.title-cicle {
+				width: 20rpx;
+				height: 20rpx;
+				background-color: red;
+				border-radius: 50%;
+				margin-top: 16rpx;
+				margin-right: 20rpx;
+			}
+			.title-words {
+				//margin-right: 320rpx;
+				font-size: 20px;
+				color: #30d1c7;
+				font-weight: bold;
+			}
+			.title-icon {
+				width: 40rpx;
+				height: 40rpx;
+			}
+		}
+		.notify-item-message {
+			font-size: 17px;
+			letter-spacing: 3rpx;
+			margin: 20rpx 0;
+		}
+		.notify-item-bottom {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			.bottom-time {
+				margin-top: 10rpx;
+				color: #8a8a8a;
+			}
+			.bottom-btn {
+				width: 160rpx;
+				font-size: 14px;
+				margin-right: 20rpx;
+			}
+		}
+		
+	}
+}
+.notify-n {
+	height: 500rpx;
+	line-height: 60rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color: #707070;
+}

@@ -1,0 +1,49 @@
+.info-face {
+	height: 380rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.face {
+		width: 180rpx;
+		height: 180rpx;
+		border-radius: 50%;
+		opacity: .8;
+	}
+	.camera {
+		width: 60rpx;
+		height: 60rpx;
+		position: absolute;
+		top: 140rpx;
+	}
+	.changeFace {
+		font-size: 16px;
+		margin-top: 10rpx;
+		color: #707070;
+		text-decoration: underline;
+	}
+}
+.info-wapper {
+	height: 90rpx;
+	line-height: 90rpx;
+	padding-left: 20rpx;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #dbdbda;
+	font-size: 20px;
+	.words-lbl {
+		text-align: center;
+		width: 140rpx;
+		color: #808080;
+		font-weight: bold;
+	}
+	.input {
+		width: 500rpx;
+		height: 90rpx;
+		margin-left: 30rpx;
+		font-size: 19px;
+	}
+	.graywords {
+		color: #a7a7a7;
+	} 
+}

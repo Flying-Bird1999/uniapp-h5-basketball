@@ -1,0 +1,140 @@
+.shade {
+	position: absolute;
+	top: 128rpx;
+	width: 100%;
+	height: 100%;
+	z-index: 888;
+	// background-color: red;
+	// opacity: .3;
+}
+// 轮播图
+.banner {
+	width: 100%;
+	height: 440rpx;
+}
+.search {
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 30rpx;
+	box-sizing: border-box;
+	.search-left {
+		display: flex;
+		border-radius: 20px;
+		width: 82%;
+		padding: 15rpx;
+		.left-ico {
+			margin: 12rpx;
+			width: 35rpx;
+			height: 35rpx;
+		} 
+		.left-input {
+			font-size: 18px;
+			margin-left: 10rpx;
+		}
+	}
+	.search-right {
+		align-self: center;
+		text-decoration: underline;
+		color: #515151;
+		font-weight: bold;
+		font-size: 16px;
+	}
+}
+.search-con {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 20rpx;
+	.search-user {
+		padding: 15rpx 0;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		.user-left {
+			display: flex;
+			.search-user-ico1 {
+				margin-top: 10rpx;
+				width: 35rpx;
+				height: 35rpx;
+			}
+			.search-user-name {
+				color: #515151;
+				margin-left: 15rpx;
+			}
+		}
+		.search-user-ico2 {
+			margin-top: 10rpx;
+			width: 35rpx;
+			height: 35rpx;
+		}
+	}
+}
+// 热门球队 裁判队伍
+// .hot-team {
+// 	margin-top: 12rpx;
+// 	padding: 20rpx;
+// 	.hot-title-wrapper {
+// 		display: flex;
+// 		flex-direction: row;
+// 		.hot-ico {
+// 			height: 35rpx;
+// 			width: 35rpx;
+// 			margin-top: 12rpx;
+// 		}
+// 		.hot-title {
+// 			font-size: 20px;
+// 			margin-left: 20rpx;
+// 			font-weight: bold;
+// 		}
+// 	}
+// }
+
+// .hot {
+// 	width: 100%;
+// 	white-space: nowrap;
+// 	.hot-container {
+// 		display: inline-block;
+// 		margin-left: 20rpx;
+// 		.hot-wrapper {
+// 			display: flex;
+// 			flex-direction: column;
+// 			.hot-img {
+// 				width: 200rpx;
+// 				height: 270rpx;
+// 			}
+// 			.hot-man {
+// 				margin-left: 40rpx;
+// 			}
+// 			.hot-name {
+// 				width: 200rpx;
+// 				margin-top: 10rpx;
+// 				font-size: 14px;
+// 				font-weight: bold;
+// 				white-space: nowrap;
+// 				overflow: hidden;
+// 				text-overflow: ellipsis;
+// 			}
+// 		}
+// 	}
+// }
+
+// 赛事相关
+.related {
+	padding: 25rpx 0;
+	display: flex;
+	flex-direction: row;
+	.related-item {
+		width: 25%;
+		text-align: center;
+		.related-ico {
+			width: 60rpx;
+			height: 60rpx;
+		}
+		.related-name {
+			font-size: 17px;
+			margin-top: 10rpx;
+			font-weight: bold;
+		}
+	}
+}

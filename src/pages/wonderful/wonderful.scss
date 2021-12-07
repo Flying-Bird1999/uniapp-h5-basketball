@@ -1,0 +1,33 @@
+.page {
+	padding: 40rpx;
+	.w-title {
+		height: 100rpx;
+		font-size: 25px;
+		align-items: center;
+		margin-left: 180rpx;
+		color: #515151;
+		font-weight: bold;
+		letter-spacing: 2rpx;
+		text-shadow: 10rpx 10rpx 10rpx #8a8a8a;
+	}
+	.w-movie {
+		box-sizing: border-box;
+		padding: 20rpx;
+		margin-bottom: 30rpx;
+		border-radius: 12rpx;
+		width: 670rpx;
+		.w-video {
+			border-radius: 12rpx;
+			width: 625rpx;
+		}
+		.w-desc {
+			padding-top: 5rpx;
+			color: #515151;
+			font-size: 18px;
+			font-weight: bold;
+			
+			// overflow: hidden;
+			// text-overflow: ellipsis;
+		}
+	}
+}

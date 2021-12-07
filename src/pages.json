@@ -1,0 +1,264 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "计科篮球院赛"
+			}
+		},
+		{
+		    "path" : "pages/schedule/schedule",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "赛程",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/ranking/ranking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/registLogin/registLogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户登陆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rules/rules",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "赛事规则",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/meInfo/meInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑个人资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/safety/safety",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帐号安全",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/changePwd/changePwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wonderful/wonderful",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "精彩瞬间",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/opinion/opinion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/notify/notify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息通知",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sign/sign",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报名记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/signInfo/signInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "队伍详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/opinionInfo/opinionInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "具体意见",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/phone/phone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定手机号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cancel/cancel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注销帐号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/secret/secret",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人隐私",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/meFace/meFace",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/team/team",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "球队战绩",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/teamBehavior/teamBehavior",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "数据统计",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "计科篮球院赛",
+		"navigationBarBackgroundColor": "#e6e6e6",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#515151",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tabIco/index1.png",
+				"selectedIconPath":"static/tabIco/index2.png"
+			},
+			{
+				"pagePath":"pages/schedule/schedule",
+				"text":"赛程",
+				"iconPath":"static/tabIco/schedule1.png",
+				"selectedIconPath":"static/tabIco/schedule2.png"
+			},
+			{
+				"pagePath":"pages/ranking/ranking",
+				"text":"积分榜",
+				"iconPath":"static/tabIco/ranking1.png",
+				"selectedIconPath":"static/tabIco/ranking2.png"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"text":"我的",
+				"iconPath":"static/tabIco/mine1.png",
+				"selectedIconPath":"static/tabIco/mine2.png"
+			}
+		]
+	}
+}
